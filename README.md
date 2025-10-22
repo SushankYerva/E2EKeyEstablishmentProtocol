@@ -3,7 +3,7 @@
 
 A Python reference implementation of a key establishment protocol that derives a mutually agreed session key between three entities A, B, and C. The session key then secures a group chat with **Confidentiality, Integrity, Availability**, and **Non-Repudiation**.
 
-[![Build](https://github.com/SushankYerva/three-party-session-key/actions/workflows/ci.yml/badge.svg)](https://github.com/SushankYerva/three-party-session-key/actions/workflows/ci.yml)
+[![Build](https://github.com/SushankYerva/E2EKeyEstablishmentProtocol/actions/workflows/ci.yml/badge.svg)](https://github.com/SushankYerva/E2EKeyEstablishmentProtocol/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-informational)
 
@@ -27,7 +27,7 @@ tests/
 
 ### 1) Install
 ```bash
-git clone https://github.com/SushankYerva/three-party-session-key.git
+git clone https://github.com/SushankYerva/E2EKeyEstablishmentProtocol.git
 cd three-party-session-key
 python -m venv .venv
 # Windows: .venv\Scriptsctivate
