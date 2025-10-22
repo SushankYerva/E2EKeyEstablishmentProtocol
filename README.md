@@ -2,7 +2,7 @@
 
 A Python reference implementation of a **key establishment protocol** that derives a **mutually agreed session key** between three entities **A, B, C**. The session key then secures a group chat channel with **Confidentiality, Integrity, Availability, and Non-Repudiation**.
 
-![Build](https://github.com/SushankYerva/E2EKeyEstablishmentProtocol/actions/workflows/ci.yml/badge.svg)
+[![Build](https://github.com/SushankYerva/E2EKeyEstablishmentProtocol/actions/workflows/ci.yml/badge.svg)](https://github.com/SushankYerva/E2EKeyEstablishmentProtocol/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-informational)
 
