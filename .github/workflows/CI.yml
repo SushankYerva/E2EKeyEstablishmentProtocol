@@ -27,12 +27,7 @@ jobs:
           pip install -r requirements.txt  # Install dependencies
           pip install pycryptodome  # Ensure pycryptodome is installed
 
-      - name: Set PYTHONPATH
-        run: echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
-
-      - name: Lint (ruff)
-        run: ruff check .
-        continue-on-error: true
-
-      - name: Run tests
-        run: pytest -q
+      - name: Set PYTHONPATH and run tests
+        run: |
+          export PYTHONPATH=$(pwd)/src
+          pytest -q --maxfail=1 --timeout=30
