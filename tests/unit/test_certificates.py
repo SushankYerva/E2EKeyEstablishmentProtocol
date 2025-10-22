@@ -7,7 +7,7 @@ import sys
 import os
 # Import from src
 # Add the src directory to the sys.path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
 from certificates import create_root_ca, create_signed_certificate
 
 def test_root_and_signed_cert_verify():
