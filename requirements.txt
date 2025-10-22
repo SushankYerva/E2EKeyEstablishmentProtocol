@@ -1,19 +1,9 @@
-ace_tools==0.0
-certifi==2025.1.31
-cffi==1.17.1
-charset-normalizer==3.4.1
 crypto==1.4.1
 cryptography==44.0.2
-idna==3.10
-Naked==0.1.32
-numpy==2.2.3
-pandas==2.2.3
-pyasn1==0.6.1
 pycparser==2.22
 pycryptodome==3.21.0
 pycryptodomex==3.21.0
 python-dateutil==2.9.0.post0
-pytz==2025.1
 PyYAML==6.0.2
 requests==2.32.3
 rsa==4.9
@@ -22,4 +12,5 @@ six==1.17.0
 tzdata==2025.1
 urllib3==2.3.0
 pytest>=8.1
+pytest-timeout>=2.1.0
 
