@@ -86,7 +86,6 @@ CI runs on **push/PR** against `main`:
 
 - RSA certs and keys are created for demo purposes and stored under `certificates/`.
 - **Do not** check real/production secrets into Git.
-- This implementation focuses on clarity for teaching—production protocols require formal proofs, forward secrecy (e.g., ECDH), replay protection, rotation, etc.
 
 ---
 
